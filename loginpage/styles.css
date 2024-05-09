@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color:white;
+    font-weight: 100;
+}
+
+.lgpage {
+    display: flex;
+}
+
+.img-container {
+    width: 60%;
+    height: 100vh;
+    background-image: url(photo-1518563172008-e56c5dfbaef6.avif);
+    background-size: cover;
+}
+.form-container {
+    width: 80%;
+    height: 100vh;
+}
+.container {
+    width: 550px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.name-container {
+    display: grid block;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 500px;
+}
+.form-group1 {
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.form-group {
+    margin-bottom: 40px;
+}
+.form-group1 label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group1 input {
+    width: 235px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group input {
+    width: 500px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    width: 520px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color:#323232;
+}
